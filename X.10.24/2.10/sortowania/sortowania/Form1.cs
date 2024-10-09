@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.XPath;
 
 namespace sortowania
 {
@@ -15,6 +16,7 @@ namespace sortowania
         public Form1()
         {
             InitializeComponent();
+            groupBox1.Enabled = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -22,12 +24,15 @@ namespace sortowania
 
         }
 
+
+        private int[] liczbyT;
         private void losuj_Click(object sender, EventArgs e)
         {
             int ilosc = int.Parse(ileLiczb.Text);
-            int[] liczbyT = losujLiczby(ilosc);
+            liczbyT = losujLiczby(ilosc);
             liczby.Text = "Liczby: " + String.Join(" ", liczbyT);
             losuj.Enabled = false;
+            groupBox1.Enabled = true;
         }
 
         public static int[] losujLiczby(int n)
@@ -44,7 +49,23 @@ namespace sortowania
         private void sort_Click(object sender, EventArgs e)
         {
             losuj.Enabled = true;
+            int[] sortedArray = new int[0];
+            if (bubble.Checked)
+            {
+                sortedArray = Sortowanie.BubbleSort(liczbyT);
+            }
 
+            if (hoare.Checked)
+            {
+                sortedArray = Sortowanie.HoareSort(liczbyT, 0, liczbyT.Length - 1);
+            }
+
+            if (lomuto.Checked)
+            {
+                sortedArray = Sortowanie.LomutoSort(liczbyT, 0, liczbyT.Length - 1);
+            }
+            posortowanaTablica.Text = "Posortowane: " + string.Join(" ", sortedArray);
+            groupBox1.Enabled = false;
         }
     }
 }

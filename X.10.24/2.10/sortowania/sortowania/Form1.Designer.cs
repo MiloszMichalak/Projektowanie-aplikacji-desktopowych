@@ -37,6 +37,7 @@
             this.liczby = new System.Windows.Forms.Label();
             this.losuj = new System.Windows.Forms.Button();
             this.sort = new System.Windows.Forms.Button();
+            this.posortowanaTablica = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,7 +124,7 @@
             // 
             // sort
             // 
-            this.sort.Location = new System.Drawing.Point(57, 253);
+            this.sort.Location = new System.Drawing.Point(57, 275);
             this.sort.Name = "sort";
             this.sort.Size = new System.Drawing.Size(75, 23);
             this.sort.TabIndex = 8;
@@ -131,11 +132,21 @@
             this.sort.UseVisualStyleBackColor = true;
             this.sort.Click += new System.EventHandler(this.sort_Click);
             // 
+            // posortowanaTablica
+            // 
+            this.posortowanaTablica.AutoSize = true;
+            this.posortowanaTablica.Location = new System.Drawing.Point(60, 256);
+            this.posortowanaTablica.Name = "posortowanaTablica";
+            this.posortowanaTablica.Size = new System.Drawing.Size(92, 16);
+            this.posortowanaTablica.TabIndex = 9;
+            this.posortowanaTablica.Text = "Posortowane: ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.posortowanaTablica);
             this.Controls.Add(this.sort);
             this.Controls.Add(this.losuj);
             this.Controls.Add(this.liczby);
@@ -162,6 +173,6 @@
         private System.Windows.Forms.Label liczby;
         private System.Windows.Forms.Button losuj;
         private System.Windows.Forms.Button sort;
+        private System.Windows.Forms.Label posortowanaTablica;
     }
 }
-
