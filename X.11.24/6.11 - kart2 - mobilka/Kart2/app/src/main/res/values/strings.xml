@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kart2</string>
+    <string name="register">Rejestruj konto</string>
+    <string name="enter_email">Wprowadz email</string>
+    <string name="enter_password">"Podaj hasło: "</string>
+    <string name="confirm_password">Confirm passoword</string>
+    <string name="confirm">Zatwierdz</string>
+    <string name="different_passwords">Hasla sie roznia</string>
+    <string name="email">Witaj %1$s</string>
+    <string name="invalid_email">Nieprawidlowy email</string>
+</resources>
