@@ -22,7 +22,36 @@ namespace TODO2
             string gender = getGender();
             string info = about.Text;
 
-            saveToFile(name, gender, info);
+            bool isValidData = ValidateData(info, gender, name);
+
+            if (isValidData)
+            {
+                saveToFile(name, gender, info);
+                MessageBox.Show("Zapisalo cie w bazie danych");
+            }
+        }
+
+        private bool ValidateData(string info, string gender, string name)
+        {
+            if (name.Length > 0 && info.Length > 0 && gender != null)
+            {
+                return true;
+            }
+
+            if (string.IsNullOrEmpty(gender))
+            {
+                MessageBox.Show("Musisz zaznaczyc plec");
+            }
+            else if (string.IsNullOrEmpty(name))
+            {
+                MessageBox.Show("Musisz podac imie");
+            }
+            else
+            {
+                MessageBox.Show("Musisz podac informacje o sobie");
+            }
+
+            return false;
         }
 
         private void saveToFile(string name, string gender, string info) {
@@ -37,7 +66,11 @@ namespace TODO2
             if (man.Checked) {
                 return "Mezczyzna";
             }
-            return "Kobieta";
+            if (Woman.Checked)
+            {
+                return "Kobieta";
+            }
+            return null;
         }
 
         private void close_Click(object sender, EventArgs e) {
@@ -48,7 +81,7 @@ namespace TODO2
         {
             Form2 form2 = new Form2();
             form2.Show();
-            Close();
+            Hide();
         }
     }
 }

@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Meleko\\Downloads\\TODO2\\",
+  "WorkspaceRootPath": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|c:\\users\\meleko\\downloads\\todo2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|c:\\users\\meleko\\downloads\\todo2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|c:\\users\\meleko\\downloads\\todo2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|c:\\users\\meleko\\downloads\\todo2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|z:\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.11.24\\13.11 todo2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|c:\\users\\meleko\\downloads\\todo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D8D0B7C4-B3F1-4D11-ADC7-E2D43D548594}|TODO2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,66 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Meleko\\Downloads\\TODO2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Meleko\\Downloads\\TODO2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T12:16:18.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form2.cs",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form2.cs",
-              "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCMAAAAvAAAAAAAAAA==",
+              "ToolTip": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form2.cs [Design]",
+              "RelativeToolTip": "Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T12:01:00.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T12:00:38.833Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form2.cs",
+              "Title": "Form2.cs",
+              "DocumentMoniker": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form2.cs [Design]",
-              "RelativeToolTip": "Form2.cs [Design]",
+              "ToolTip": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAtwE0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T12:00:38.833Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-20T19:47:55.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form1.cs",
+              "DocumentMoniker": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form1.cs",
+              "ToolTip": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAywFMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T11:44:46.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form1.cs",
+              "DocumentMoniker": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Meleko\\Downloads\\TODO2\\Form1.cs [Design]",
+              "ToolTip": "Z:\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.11.24\\13.11 TODO2\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T11:43:13.926Z",

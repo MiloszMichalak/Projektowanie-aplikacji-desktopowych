@@ -5,6 +5,6 @@ Napisz program, w którym podajesz dane o osobie:
 
 Po kliknięciu w button zapisz -> całość danych zapisać do pliku.
 Inny button zamyka program. 
-Jeszcze inny button wyświetla listę osób z pliku w nowym oknie gridzie. 
+Jeszcze inny button wyświetla listę osób z pliku w nowym oknie gridzie (użyć obu kontenerów - ListView oraz DataGridView). 
 
 Użyj List i tablic do pracy z danymi.
