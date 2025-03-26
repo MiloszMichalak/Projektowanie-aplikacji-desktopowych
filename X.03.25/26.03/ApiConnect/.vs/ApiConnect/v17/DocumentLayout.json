@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F987CB1-5980-4766-9ABE-21D95CB59274}|..\\Tests\\Tests.csproj|c:\\users\\meleko\\my drive\\wewnetrzny\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.03.25\\26.03\\tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|c:\\users\\meleko\\my drive\\wewnetrzny\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.03.25\\26.03\\apiconnect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|c:\\users\\meleko\\my drive\\wewnetrzny\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.03.25\\26.03\\apiconnect\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|solutionrelative:proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|c:\\users\\meleko\\my drive\\wewnetrzny\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.03.25\\26.03\\apiconnect\\iadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|solutionrelative:iadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|c:\\users\\meleko\\my drive\\wewnetrzny\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.03.25\\26.03\\apiconnect\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|solutionrelative:adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|c:\\users\\meleko\\my drive\\wewnetrzny\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.03.25\\26.03\\apiconnect\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|solutionrelative:dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|c:\\users\\meleko\\my drive\\wewnetrzny\\szkola\\repos\\projektowanie-aplikacji-desktopowych\\x.03.25\\26.03\\apiconnect\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773958FB-1ED3-43B8-B36A-49CE70F262F6}|ApiConnect.csproj|solutionrelative:idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\Tests\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Tests\\Class1.cs",
+              "ToolTip": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\Tests\\Class1.cs",
+              "RelativeToolTip": "..\\Tests\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:15:49.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proxy.cs",
+              "DocumentMoniker": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Proxy.cs",
+              "RelativeDocumentMoniker": "Proxy.cs",
+              "ToolTip": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Proxy.cs",
+              "RelativeToolTip": "Proxy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:54:15.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\IAdapter.cs",
+              "RelativeDocumentMoniker": "IAdapter.cs",
+              "ToolTip": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\IAdapter.cs",
+              "RelativeToolTip": "IAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:51:25.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Adapter.cs",
+              "DocumentMoniker": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Adapter.cs",
+              "RelativeDocumentMoniker": "Adapter.cs",
+              "ToolTip": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Adapter.cs",
+              "RelativeToolTip": "Adapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:50:20.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dao.cs",
+              "DocumentMoniker": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Dao.cs",
+              "RelativeDocumentMoniker": "Dao.cs",
+              "ToolTip": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Dao.cs",
+              "RelativeToolTip": "Dao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:48:53.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDao.cs",
+              "DocumentMoniker": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\IDao.cs",
+              "RelativeDocumentMoniker": "IDao.cs",
+              "ToolTip": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\IDao.cs",
+              "RelativeToolTip": "IDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:48:12.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Meleko\\My Drive\\Wewnetrzny\\Szkola\\Repos\\Projektowanie-aplikacji-desktopowych\\X.03.25\\26.03\\ApiConnect\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:45:18.166Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
