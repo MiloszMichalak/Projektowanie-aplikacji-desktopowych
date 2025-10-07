@@ -1,0 +1,15 @@
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.exe.config
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.exe
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.pdb
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csproj.AssemblyReference.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\MainWindow.g.cs
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\App.g.cs
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja_MarkupCompile.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja_MarkupCompile.lref
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\MainWindow.baml
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.g.resources
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.Properties.Resources.resources
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csproj.GenerateResource.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.exe
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\4Klasa\X.09.25\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.pdb

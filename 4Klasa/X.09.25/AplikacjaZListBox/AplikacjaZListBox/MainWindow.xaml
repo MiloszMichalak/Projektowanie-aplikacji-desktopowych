@@ -1,0 +1,36 @@
+﻿<Window x:Class="AplikacjaZListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplikacjaZListBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <ListBox Grid.Column="0" Margin="5">
+            <ListBoxItem Content="Item 1"></ListBoxItem>
+            <ListBoxItem Content="C#"></ListBoxItem>
+        </ListBox>
+        
+        <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="20,2,20,2"></Setter>
+                    <Setter Property="Width" Value="128"></Setter>
+                    <Setter Property="Height" Value="26"></Setter>
+                </Style>
+            </StackPanel.Resources>
+            <Label Content="ListBoxSelection" HorizontalContentAlignment="Center" FontSize="18" FontWeight="600"></Label>
+            <Button Content="Show Selected"></Button>
+            <Button Content="Select Last"></Button>
+            <Button Content="Select Next"></Button>
+            <Button Content="Select C#"></Button>
+            <Button Content="Select all"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
