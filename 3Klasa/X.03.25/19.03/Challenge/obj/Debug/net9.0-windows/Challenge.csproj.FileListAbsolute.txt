@@ -1,0 +1,17 @@
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\bin\Debug\net9.0-windows\Challenge.exe
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\bin\Debug\net9.0-windows\Challenge.deps.json
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\bin\Debug\net9.0-windows\Challenge.runtimeconfig.json
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\bin\Debug\net9.0-windows\Challenge.dll
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\bin\Debug\net9.0-windows\Challenge.pdb
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.Form1.resources
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.csproj.GenerateResource.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.AssemblyInfoInputs.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.AssemblyInfo.cs
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.csproj.CoreCompileInputs.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.sourcelink.json
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.dll
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\refint\Challenge.dll
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.pdb
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\Challenge.genruntimeconfig.cache
+C:\Users\Meleko\My Drive\Wewnetrzny\Szkola\Repos\Projektowanie-aplikacji-desktopowych\X.03.25\19.03\Challenge\obj\Debug\net9.0-windows\ref\Challenge.dll

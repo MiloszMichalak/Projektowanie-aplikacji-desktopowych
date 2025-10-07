@@ -1,0 +1,1 @@
+trzeba uzyc csv reader zeby odczytywac tego simca

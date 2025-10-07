@@ -1,0 +1,380 @@
+Napisz pogram, który sortuje losowe liczby dwucyfrowe.
+Na początku user podaje ile liczb program ma mu wylosować. Forma przekazania tego systemowi jest dowolna po czym klika przycisk LOSUJ. Po kliknięciu w niego staje się on nieaktywny i liczby pojawiają się w labelu.
+Potem uaktywnia się radio strefa 3 rodzajów sortowania:
+- bąbelkowe
+- quicksort hoare 
+- quicksort lomuto
+
+Po wybraniu jednej z opcji i klkiknięciu SORTUJ liczby stają się posortowane rosnąco a przycisk losuj staje się znów aktywny.
+
+Do wglądu oddajecie:
+- plik Form1.cs
+- plik Form1.DSesigner.cs
+- plik Sortowanie.class z 3 metodami sortującymi.
+
+
+FORM1.CS
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml.XPath;
+
+namespace sortowania
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            groupBox1.Enabled = false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private int[] liczbyT;
+        private void losuj_Click(object sender, EventArgs e)
+        {
+            int ilosc = int.Parse(ileLiczb.Text);
+            liczbyT = losujLiczby(ilosc);
+            liczby.Text = "Liczby: " + String.Join(" ", liczbyT);
+            losuj.Enabled = false;
+            groupBox1.Enabled = true;
+        }
+
+        public static int[] losujLiczby(int n)
+        {
+            Random random = new Random();
+            int[] liczby = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                liczby[i] = random.Next(1, 100);
+            }
+            return liczby;
+        }
+
+        private void sort_Click(object sender, EventArgs e)
+        {
+            losuj.Enabled = true;
+            int[] sortedArray = new int[0];
+            if (bubble.Checked)
+            {
+                sortedArray = Sortowanie.BubbleSort(liczbyT);
+            }
+
+            if (hoare.Checked)
+            {
+                sortedArray = Sortowanie.HoareSort(liczbyT, 0, liczbyT.Length - 1);
+            }
+
+            if (lomuto.Checked)
+            {
+                sortedArray = Sortowanie.LomutoSort(liczbyT, 0, liczbyT.Length - 1);
+            }
+            posortowanaTablica.Text = "Posortowane: " + string.Join(" ", sortedArray);
+            groupBox1.Enabled = false;
+        }
+    }
+}
+
+
+
+FORM1.DESIGNER.CS
+namespace sortowania
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.bubble = new System.Windows.Forms.RadioButton();
+            this.hoare = new System.Windows.Forms.RadioButton();
+            this.lomuto = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ileLiczb = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.liczby = new System.Windows.Forms.Label();
+            this.losuj = new System.Windows.Forms.Button();
+            this.sort = new System.Windows.Forms.Button();
+            this.posortowanaTablica = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // bubble
+            // 
+            this.bubble.AutoSize = true;
+            this.bubble.Location = new System.Drawing.Point(6, 21);
+            this.bubble.Name = "bubble";
+            this.bubble.Size = new System.Drawing.Size(96, 20);
+            this.bubble.TabIndex = 0;
+            this.bubble.TabStop = true;
+            this.bubble.Text = "Bubble sort";
+            this.bubble.UseVisualStyleBackColor = true;
+            // 
+            // hoare
+            // 
+            this.hoare.AutoSize = true;
+            this.hoare.Location = new System.Drawing.Point(6, 47);
+            this.hoare.Name = "hoare";
+            this.hoare.Size = new System.Drawing.Size(91, 20);
+            this.hoare.TabIndex = 1;
+            this.hoare.TabStop = true;
+            this.hoare.Text = "Hoare sort";
+            this.hoare.UseVisualStyleBackColor = true;
+            // 
+            // lomuto
+            // 
+            this.lomuto.AutoSize = true;
+            this.lomuto.Location = new System.Drawing.Point(6, 73);
+            this.lomuto.Name = "lomuto";
+            this.lomuto.Size = new System.Drawing.Size(97, 20);
+            this.lomuto.TabIndex = 2;
+            this.lomuto.TabStop = true;
+            this.lomuto.Text = "Lomuto sort";
+            this.lomuto.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.bubble);
+            this.groupBox1.Controls.Add(this.lomuto);
+            this.groupBox1.Controls.Add(this.hoare);
+            this.groupBox1.Location = new System.Drawing.Point(57, 146);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // ileLiczb
+            // 
+            this.ileLiczb.Location = new System.Drawing.Point(57, 32);
+            this.ileLiczb.Name = "ileLiczb";
+            this.ileLiczb.Size = new System.Drawing.Size(100, 22);
+            this.ileLiczb.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(57, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 16);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Ile liczb";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // liczby
+            // 
+            this.liczby.AutoSize = true;
+            this.liczby.Location = new System.Drawing.Point(57, 61);
+            this.liczby.Name = "liczby";
+            this.liczby.Size = new System.Drawing.Size(51, 16);
+            this.liczby.TabIndex = 6;
+            this.liczby.Text = "Liczby: ";
+            // 
+            // losuj
+            // 
+            this.losuj.Location = new System.Drawing.Point(57, 81);
+            this.losuj.Name = "losuj";
+            this.losuj.Size = new System.Drawing.Size(75, 23);
+            this.losuj.TabIndex = 7;
+            this.losuj.Text = "losuj";
+            this.losuj.UseVisualStyleBackColor = true;
+            this.losuj.Click += new System.EventHandler(this.losuj_Click);
+            // 
+            // sort
+            // 
+            this.sort.Location = new System.Drawing.Point(57, 275);
+            this.sort.Name = "sort";
+            this.sort.Size = new System.Drawing.Size(75, 23);
+            this.sort.TabIndex = 8;
+            this.sort.Text = "Sortuj";
+            this.sort.UseVisualStyleBackColor = true;
+            this.sort.Click += new System.EventHandler(this.sort_Click);
+            // 
+            // posortowanaTablica
+            // 
+            this.posortowanaTablica.AutoSize = true;
+            this.posortowanaTablica.Location = new System.Drawing.Point(60, 256);
+            this.posortowanaTablica.Name = "posortowanaTablica";
+            this.posortowanaTablica.Size = new System.Drawing.Size(92, 16);
+            this.posortowanaTablica.TabIndex = 9;
+            this.posortowanaTablica.Text = "Posortowane: ";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.posortowanaTablica);
+            this.Controls.Add(this.sort);
+            this.Controls.Add(this.losuj);
+            this.Controls.Add(this.liczby);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ileLiczb);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.RadioButton bubble;
+        private System.Windows.Forms.RadioButton hoare;
+        private System.Windows.Forms.RadioButton lomuto;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox ileLiczb;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label liczby;
+        private System.Windows.Forms.Button losuj;
+        private System.Windows.Forms.Button sort;
+        private System.Windows.Forms.Label posortowanaTablica;
+    }
+}
+
+
+SORTOWANIE.CS
+
+using System.Collections.Generic;
+
+namespace sortowania
+{
+    internal class Sortowanie
+    {
+        public static int[] BubbleSort(int[] arr)
+        {
+            int n = arr.Length;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        int temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+                    }
+                }
+            }
+            return arr;
+        }
+
+        public static int[] HoareSort(int[] arr, int low, int high)
+        {
+            Stack<int[]> stack = new Stack<int[]>();
+            stack.Push(new int[] { low, high });
+
+            while (stack.Count != 0)
+            {
+                int[] range = stack.Pop();
+                int start = range[0];
+                int end = range[1];
+
+                if (start >= end) continue;
+
+                int pivot = arr[start];
+                int left = start - 1;
+                int right = end + 1;
+
+                while (true)
+                {
+                    do
+                    {
+                        left++;
+                    } while (arr[left] < pivot);
+
+                    do
+                    {
+                        right--;
+                    } while (arr[right] > pivot);
+
+                    if (left >= right) break;
+
+                    int temp = arr[left];
+                    arr[left] = arr[right];
+                    arr[right] = temp;
+                }
+
+                stack.Push(new int[] { start, right });
+                stack.Push(new int[] { right + 1, end });
+            }
+
+            return arr;
+        }
+
+        public static int[] LomutoSort(int[] arr, int low, int high)
+        {
+            Stack<int[]> stack = new Stack<int[]>();
+            stack.Push(new int[] { low, high });
+            int temp = 0;
+
+            while (stack.Count != 0)
+            {
+                int[] range = stack.Pop();
+                int start = range[0];
+                int end = range[1];
+
+                if (start >= end) continue;
+
+                int pivot = arr[end];
+                int i = start - 1;
+
+                for (int j = start; j < end; j++)
+                {
+                    if (arr[j] < pivot)
+                    {
+                        i++;
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+
+                temp = arr[i + 1];
+                arr[i + 1] = arr[end];
+                arr[end] = temp;
+
+                stack.Push(new int[] { start, i });
+                stack.Push(new int[] { i + 2, end });
+            }
+
+            return arr;
+        }
+    }
+}
