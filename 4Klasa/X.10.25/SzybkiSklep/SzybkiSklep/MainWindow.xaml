@@ -1,0 +1,76 @@
+﻿<Window x:Class="SzybkiSklep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzybkiSklep"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <GroupBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Header="Dane">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                    </Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Height" Value="30"></Setter>
+                        <Setter Property="IsEnabled" Value="False"></Setter>
+                    </Style>
+                </Grid.Resources>
+                
+                <Label Grid.Row="0" Grid.Column="0" Content="Name"></Label>
+                <TextBox Grid.Row="0" Grid.Column="1"></TextBox>
+                <Label Grid.Row="1" Grid.Column="0" Content="Cena"></Label>
+                <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
+                <DockPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" LastChildFill="False">
+                    <DockPanel.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="Height" Value="35"></Setter>
+                            <Setter Property="Width" Value="50"></Setter>
+                        </Style>
+                    </DockPanel.Resources>
+                    <Button DockPanel.Dock="Left" Content="Prev"></Button>
+                    <Button DockPanel.Dock="Right" Content="Next"></Button>
+                </DockPanel>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="0" Header="Rabat">
+            <StackPanel Orientation="Vertical">
+                <StackPanel.Resources>
+                    <Style TargetType="RadioButton">
+                        <Setter Property="Margin" Value="10,10,10,10"></Setter>
+                    </Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Margin" Value="0,10,0,10"></Setter>
+                    </Style>
+                </StackPanel.Resources>
+                <RadioButton Content="Procent"></RadioButton>
+                <RadioButton Content="Fixed"></RadioButton>
+                <Button Content="zatwierdz"></Button>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="CosTam">
+            <StackPanel></StackPanel>
+        </GroupBox>
+    </Grid>
+    
+</Window>
