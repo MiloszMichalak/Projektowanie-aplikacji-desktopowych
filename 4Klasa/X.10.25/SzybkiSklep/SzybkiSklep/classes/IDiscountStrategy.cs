@@ -1,6 +1,6 @@
 namespace SzybkiSklep;
 
-public class IDiscountStrategy
+public interface IDiscountStrategy
 {
     
 }

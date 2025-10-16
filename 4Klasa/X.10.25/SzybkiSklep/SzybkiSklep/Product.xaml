@@ -31,6 +31,6 @@
         <TextBox x:Name="name" Grid.Row="0" Grid.Column="1"></TextBox>
         <Label Grid.Row="1" Grid.Column="0" Content="Cena"></Label>
         <TextBox x:Name="price" Grid.Row="1" Grid.Column="1"></TextBox>
-        <Button Grid.Row="2" Grid.Column="0" Content="Dodaj"></Button>
+        <Button x:Name="Button" Click="Button_OnClick" Grid.Row="2" Grid.Column="0" Content="Dodaj"></Button>
     </Grid>
 </Window>

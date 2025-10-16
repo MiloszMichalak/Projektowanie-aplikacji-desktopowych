@@ -38,9 +38,9 @@
                 </Grid.Resources>
                 
                 <Label Grid.Row="0" Grid.Column="0" Content="Name"></Label>
-                <TextBox Grid.Row="0" Grid.Column="1"></TextBox>
+                <TextBox x:Name="name" Grid.Row="0" Grid.Column="1"></TextBox>
                 <Label Grid.Row="1" Grid.Column="0" Content="Cena"></Label>
-                <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
+                <TextBox x:Name="cena" Grid.Row="1" Grid.Column="1"></TextBox>
                 <DockPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" LastChildFill="False">
                     <DockPanel.Resources>
                         <Style TargetType="Button">
@@ -48,8 +48,8 @@
                             <Setter Property="Width" Value="50"></Setter>
                         </Style>
                     </DockPanel.Resources>
-                    <Button DockPanel.Dock="Left" Content="Prev"></Button>
-                    <Button DockPanel.Dock="Right" Content="Next"></Button>
+                    <Button Click="ButtonBase_OnClick" DockPanel.Dock="Left" Content="Prev"></Button>
+                    <Button Click="ButtonBase_OnClick2" DockPanel.Dock="Right" Content="Next"></Button>
                 </DockPanel>
             </Grid>
         </GroupBox>
@@ -65,7 +65,7 @@
                 </StackPanel.Resources>
                 <RadioButton Content="Procent"></RadioButton>
                 <RadioButton Content="Fixed"></RadioButton>
-                <Button Content="zatwierdz"></Button>
+                <Label Content=""></Label>
             </StackPanel>
         </GroupBox>
         <GroupBox Grid.Row="1" Grid.Column="1" Header="CosTam">
