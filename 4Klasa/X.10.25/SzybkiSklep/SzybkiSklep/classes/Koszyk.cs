@@ -4,7 +4,18 @@ public class Koszyk
 {
     public List<ProductItem> products { get; }
     private static Koszyk _instance;
-    public static Koszyk Instance => _instance ??= new Koszyk();
+    private static readonly Lock _lock = new Lock();
+
+    public static Koszyk Instance
+    {
+        get
+        {
+            lock (_lock)
+            {
+                return _instance ??= new Koszyk();
+            }
+        }
+    }
 
     private Koszyk()
     {

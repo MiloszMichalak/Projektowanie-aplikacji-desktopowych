@@ -68,8 +68,11 @@
                 <Label Content=""></Label>
             </StackPanel>
         </GroupBox>
-        <GroupBox Grid.Row="1" Grid.Column="1" Header="CosTam">
-            <StackPanel></StackPanel>
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="Ceny">
+            <StackPanel>
+                <Label Content="Przed:"></Label>
+                <Label Content="Po:"></Label>
+            </StackPanel>
         </GroupBox>
     </Grid>
     

@@ -16,7 +16,7 @@ namespace SzybkiSklep;
 /// </summary>
 public partial class MainWindow : Window
 {
-    int index = 0;
+    int index;
     List<ProductItem> listaProduktow = Koszyk.Instance.products;
     public MainWindow()
     {
@@ -31,6 +31,12 @@ public partial class MainWindow : Window
         if (e.Key == Key.A && Keyboard.Modifiers.HasFlag(ModifierKeys.Control))
         {
             var newWindow = new Product();
+            newWindow.Closed += (s, args) =>
+            {
+                listaProduktow = Koszyk.Instance.products;
+                index ++; 
+                UpdateUI();
+            };
 
             newWindow.Show();
         }
@@ -40,9 +46,9 @@ public partial class MainWindow : Window
     {
         listaProduktow = Koszyk.Instance.products;
         if (listaProduktow == null || listaProduktow.Count == 0) return;
-        if (index < listaProduktow.Count - 1)
+        if (index > 0)
         {
-            index++;
+            index--;
             UpdateUI();
         }
     }
@@ -51,11 +57,12 @@ public partial class MainWindow : Window
     {
         listaProduktow = Koszyk.Instance.products;
         if (listaProduktow == null || listaProduktow.Count == 0) return;
-        if (index > 0)
+        if (index < listaProduktow.Count - 1)
         {
-            index--;
+            index++;
             UpdateUI();
         }
+        
     }
     
     private void UpdateUI()
