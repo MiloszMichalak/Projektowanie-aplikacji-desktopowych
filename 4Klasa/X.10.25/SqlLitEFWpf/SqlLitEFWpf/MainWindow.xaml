@@ -1,0 +1,57 @@
+﻿<Window x:Class="SqlLitEFWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SqlLitEFWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="8*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.Resources>
+            <Style TargetType="TextBox">
+                <Setter Property="Width" Value="500"></Setter>
+                <Setter Property="Height" Value="45"></Setter>
+                <Setter Property="FontSize" Value="16"></Setter>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Width" Value="200"></Setter>
+                <Setter Property="Height" Value="40"></Setter>
+            </Style>
+        </Grid.Resources>
+        
+        <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Content="OSOBA" FontSize="36" HorizontalAlignment="Center"></Label>
+        
+        <Label Grid.Column="0" Grid.Row="1" Content="Id"></Label>
+        <Label Grid.Column="0" Grid.Row="2" Content="Imie"></Label>
+        <Label Grid.Column="0" Grid.Row="3" Content="Nazwisko"></Label>
+        <Label Grid.Column="0" Grid.Row="4" Content="Hobby"></Label>
+        
+        <TextBox x:Name="IdTextBox" Grid.Column="1" Grid.Row="1"></TextBox>
+        <TextBox x:Name="NameTextBox" Grid.Column="1" Grid.Row="2"></TextBox>
+        <TextBox x:Name="SurnameTextBox" Grid.Column="1" Grid.Row="3"></TextBox>
+        <TextBox x:Name="HobbyTextBox" Grid.Column="1" Grid.Row="4"></TextBox>
+        
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Content="Dodaj" x:Name="AddButton" Click="AddButton_OnClick"></Button>
+        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Content="Pokaz" x:Name="ShowButton" Click="ShowButton_OnClick"></Button>
+    </Grid>
+    
+    
+</Window>
