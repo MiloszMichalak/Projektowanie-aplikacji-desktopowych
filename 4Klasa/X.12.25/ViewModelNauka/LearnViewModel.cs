@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
@@ -7,13 +8,13 @@ public partial class LearnViewModel : ObservableObject
 {
     [ObservableProperty]
     private int _counter;
-
+    
     [RelayCommand]
     private void Increment()
     {
         Counter++;
     }
-
+    
     [RelayCommand]
     private void Decrement()
     {
