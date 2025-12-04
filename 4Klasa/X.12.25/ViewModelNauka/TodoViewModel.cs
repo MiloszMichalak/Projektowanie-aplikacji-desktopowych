@@ -13,7 +13,7 @@ public partial class TodoViewModel : ObservableObject
     [ObservableProperty]
     private ToDoItem _selectedItem;
     
-    public ObservableCollection<ToDoItem> Items { get; } = new();
+    public ObservableCollection<ToDoItem> Items { get; set; } = new();
 
     public TodoViewModel()
     {
@@ -40,5 +40,13 @@ public partial class TodoViewModel : ObservableObject
     {
         Items.Remove(item);
         IsDone = false;
+    }
+
+    public void RemoveSelected()
+    {
+        foreach (var item in Items.Where(i => i.IsDone))
+        {
+            Items.Remove(item);
+        }
     }
 }
