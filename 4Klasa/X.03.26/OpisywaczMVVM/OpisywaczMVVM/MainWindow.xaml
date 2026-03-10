@@ -1,0 +1,48 @@
+﻿<Window x:Class="OpisywaczMVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpisywaczMVVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:DescriberViewmodel></local:DescriberViewmodel>
+    </Window.DataContext>
+    <StackPanel Orientation="Vertical">
+        <StackPanel.Resources>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="20"></Setter>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="Width" Value="200"></Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Width" Value="40"></Setter>
+                <Setter Property="Margin" Value="2,0"></Setter>
+            </Style>
+        </StackPanel.Resources>
+
+        <Label Content="{Binding Describer.Author, StringFormat=Author: {0}}"></Label>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Cecha 1 - "></Label>
+            <TextBox Text="{Binding Feature1}"></TextBox>
+            <Button>✅</Button>
+            <Button>❌</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Cecha 2 - "></Label>
+            <TextBox Text="{Binding Feature2}"></TextBox>
+            <Button>✅</Button>
+            <Button>❌</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Cecha 3 - "></Label>
+            <TextBox Text="{Binding Feature3}"></TextBox>
+            <Button>✅</Button>
+            <Button>❌</Button>
+        </StackPanel>
+        <Label Content="Opis"></Label>
+        <TextBlock></TextBlock>
+    </StackPanel>
+</Window>
